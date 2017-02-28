@@ -1,0 +1,37 @@
+header {
+    background-image: url("../images/header.png");
+    text-align: center;
+}
+
+h1 {
+    color: white !important;
+    font-size: 3em !important;
+    font-family: Oswald !important;
+    text-transform: uppercase;
+}
+
+#menu {
+    background-color: #52aae5;
+    margin: 0 auto;
+    width: 100%;
+}
+
+header ul {
+    width: 100%;
+}
+
+header li a {
+    margin: 0 auto;
+    color: white;
+}
+
+header section {
+    background-image: url("../images/fond.png");
+    padding: 2em;
+    margin: 1em 0 4em 0;
+    box-sizing: border-box;
+}
+
+header img {
+    width: 100%;
+}
