@@ -8,21 +8,29 @@ h1 {
     font-size: 3em !important;
     font-family: Oswald !important;
     text-transform: uppercase;
+    padding-bottom: 1em;
 }
 
 #menu {
     background-color: #52aae5;
     margin: 0 auto;
     width: 100%;
+    height: 4em;
+    line-height: 3em;
+
 }
 
 header ul {
     width: 100%;
+    height: inherit;
 }
-
+header li {
+    height: inherit;
+}
 header li a {
     margin: 0 auto;
     color: white;
+    height: inherit;
 }
 
 header section {
@@ -34,4 +42,45 @@ header section {
 
 header img {
     width: 100%;
+}
+
+body {
+    background-image: url("../images/fond.png");
+}
+.fondArticle {
+    background-image: url("../images/fond-article.png");
+}
+.fondArticle {
+    padding: 1em;
+    margin: 1em;
+}
+
+.fondArticle img {
+    float: left;
+    margin: 3em 1em 0 1em;
+}
+.fondArticle h2 {
+    font-size: 2em;
+}
+.fondArticle p {
+    margin-left:  186px;
+}
+
+main h2 {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+main h3{
+    font-size: 2em;
+    text-transform: uppercase;
+    color: red;
+}
+
+button {
+    background-color: #ff3d00;
+    border: none;
+    color: white !important;
+    border-radius: 2px;
+    padding: 0.5em 1.5em;
 }
