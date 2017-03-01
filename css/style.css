@@ -1,3 +1,11 @@
+body {
+    background-image: url("../images/fond.png");
+}
+
+* {
+    color: #525252;
+}
+
 header {
     background-image: url("../images/header.png");
     text-align: center;
@@ -11,26 +19,45 @@ h1 {
     padding-bottom: 1em;
 }
 
+h2 {
+    color: #2A2A2A !important;
+    font-size: 2em !important;
+}
+
+h3 {
+    color: #2A2A2A;
+    font-size: 1em;
+}
+
+h1, h2, h3 {
+    font-family: "Oswald";
+}
+
+li {
+    list-style-image: url("../images/fleche.png");
+}
+
 #menu {
-    background-color: #52aae5;
+    background-color: #337ab7;
     margin: 0 auto;
     width: 100%;
-    height: 4em;
-    line-height: 3em;
-
+    font-size: 1.5em;
+    font-family: "Abel";
 }
 
 header ul {
     width: 100%;
-    height: inherit;
+    text-align: center;
 }
-header li {
-    height: inherit;
+
+header ul li {
+float: none !important;
+display: inline-block !important;
 }
+
 header li a {
     margin: 0 auto;
     color: white;
-    height: inherit;
 }
 
 header section {
@@ -44,26 +71,27 @@ header img {
     width: 100%;
 }
 
-body {
-    background-image: url("../images/fond.png");
+#firstArticles h2 {
+    margin-top: 2em !important;
 }
+
+#sectionFondArticle {
+    margin: 3em auto;
+}
+
 .fondArticle {
     background-image: url("../images/fond-article.png");
-}
-.fondArticle {
     padding: 1em;
-    margin: 1em;
+    margin: 2em 0;
 }
 
 .fondArticle img {
     float: left;
     margin: 3em 1em 0 1em;
+    width: 40%;
 }
 .fondArticle h2 {
     font-size: 2em;
-}
-.fondArticle p {
-    margin-left:  186px;
 }
 
 main h2 {
@@ -72,9 +100,38 @@ main h2 {
 }
 
 main h3{
-    font-size: 2em;
     text-transform: uppercase;
     color: red;
+    font-size: 1.5em;
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+main img {
+    width: 100%;
+}
+
+main p {
+    margin-top: 1em;
+}
+
+main button {
+    margin-bottom: 3em;
+}
+
+.SIDEBAR:not(:last-child) {
+    border-bottom: 1px solid #DEDEDE;
+    margin: 1.5em 0;
+}
+
+.SIDEBAR button {
+    width: 10em;
+    padding: 0.5em 0;
+    margin-bottom: 2em;
+}
+
+.SIDEBAR:last-child {
+    margin-bottom: 5em;
 }
 
 button {
@@ -83,4 +140,60 @@ button {
     color: white !important;
     border-radius: 2px;
     padding: 0.5em 1.5em;
+}
+
+#sidebartwo ul {
+    padding-left: 1em;
+}
+
+#sidebartwo ul li {
+    padding: 0.5em 0;
+}
+
+#sidebartwo li:not(:last-child){
+    border-bottom: 1px solid #dedede;
+
+}
+
+#sidebartwo ul a {
+    color: black;
+}
+
+#lastArticlesSection {
+    background-image: url("../images/footer.png")
+}
+
+blockquote {
+        background-image: url("../images/citation.jpg");
+}
+
+blockquote p {
+    margin-top: 1em;
+}
+
+article .lastArticles p {
+
+}
+
+.lastArticles img {
+    padding: 0.2em 0;
+}
+
+.lastArticles button {
+    margin-top: 2em;
+}
+
+#secondLineLastArticles article {
+    margin-bottom: 1em
+}
+
+#secondLineLastArticles article:not(:last-child) {
+    border-bottom: 1px solid #D1D1D1;
+}
+
+
+footer {
+    background-image: url("../images/bas-de-page.png");
+    text-align: center;
+    padding: 2em 0;
 }
