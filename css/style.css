@@ -12,16 +12,31 @@ header {
 }
 
 h1 {
-    color: white !important;
-    font-size: 3em !important;
-    font-family: Oswald !important;
+    font-size: 3em;
     text-transform: uppercase;
     padding-bottom: 1em;
 }
 
+h1 a {
+    border-radius: 3px;
+}
+
+h1 a, h1 a:visited, h1 a:link, h1 a:active {
+    color: white;
+}
+
+h1 a:hover {
+    background-color: white;
+    color: #2c5bba;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
 h2 {
-    color: #2A2A2A !important;
-    font-size: 2em !important;
+    color: #2A2A2A;
+    font-size: 2em;
 }
 
 h3 {
@@ -50,9 +65,9 @@ header ul {
     text-align: center;
 }
 
-header ul li {
-float: none !important;
-display: inline-block !important;
+.nav-pills li {
+float: none;
+display: inline-block;
 }
 
 header li a {
@@ -72,7 +87,7 @@ header img {
 }
 
 #firstArticles h2 {
-    margin-top: 2em !important;
+    margin-top: 2em;
 }
 
 #sectionFondArticle {
@@ -81,17 +96,18 @@ header img {
 
 .fondArticle {
     background-image: url("../images/fond-article.png");
-    padding: 1em;
+    padding: 2em;
     margin: 2em 0;
 }
 
 .fondArticle img {
     float: left;
-    margin: 3em 1em 0 1em;
+    margin: 1em 1em;
     width: 40%;
 }
 .fondArticle h2 {
     font-size: 2em;
+    margin: 0.3em 0;
 }
 
 main h2 {
@@ -137,7 +153,7 @@ main button {
 button {
     background-color: #ff3d00;
     border: none;
-    color: white !important;
+    color: white;
     border-radius: 2px;
     padding: 0.5em 1.5em;
 }
@@ -161,6 +177,18 @@ button {
 
 #lastArticlesSection {
     background-image: url("../images/footer.png")
+}
+
+#lastArticlesSection h2 {
+    margin-top: 2em;
+}
+
+#lastArticlesSection h3 {
+    font-weight: bold;
+}
+
+#lastArticlesSection p {
+    font-style: italic;
 }
 
 blockquote {
